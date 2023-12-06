@@ -1,0 +1,3704 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif
+}
+
+.clearfix::after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.f-l {
+    float: left;
+}
+
+.f-r {
+    float: right;
+}
+
+.fixed-width {
+    width: 1280px;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+.btn {
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.btn a{
+    display: inline-block;
+    text-decoration: none;
+    color: #313a49;
+    font-size: 15px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    height:100%;
+    width: 100%; 
+    padding: 10px;
+}
+
+.p-30 {
+    padding: 30px 0;
+}
+
+/* Header Design Start */
+#headersectionmenu {
+  background-color: #fff;
+  margin: 10px 0px 0 0;
+}
+
+#headersectionmenu .headermenuup {
+    height: 100%;
+    border-bottom: 1px solid #eeeff2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#headersectionmenu .headermenuup .logo {
+    width: 16.65%;
+    border-right: 1px solid #eeeff2;
+}
+
+.headermenuup .logo img {
+    max-width: 100%;
+    margin: 0 20px;
+
+}
+
+/* Logo Section */
+
+
+#headersectionmenu .location {
+    width: 16.65%;
+    margin-left: 10px;
+
+}
+#headersectionmenu .location .l-image {
+    Width: 24px;
+    margin-right: 10px;
+}
+
+.location p {
+    color: #718096;
+    display: inline-block;
+  }
+
+  .location i {
+    color: #718096;
+  }
+
+
+/* Location Section */
+
+#headersectionmenu .searchbar {
+    width: 30%;
+    height: 100%;
+    text-align: center;
+    position: relative;
+  }
+
+#headersectionmenu .searchbar .searchbtn {
+    width: 40px;
+    height: 100%;
+    background-color: #0bb783;
+    position: absolute;
+    top: 0;
+    right: 21px;
+    border-radius: 0 10px 10px 0;
+    cursor: pointer;
+  }
+#headersectionmenu .searchbar .searchbtn .searchIcon{
+    width: 20px;
+    position: absolute;
+    top: 0;
+    right: 9px;
+    height: 100%;
+  }
+
+  #headersectionmenu .searchbar .search {
+    background: #f1f2f4;
+    outline: none;
+    padding: 12px;
+    width: 90%;
+    border-radius: 10px;
+    border: none;
+    position: relative;
+  }
+
+::placeholder {
+    color: #718096;
+    font-size: 17px;
+}
+
+/* Searchbar Section */
+
+#headersectionmenu .call {
+    width: 13.65%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;
+    background-color: #e7f8f3;
+    border-radius: 15px;
+    margin-right: 15px;
+  }
+
+#headersectionmenu .callIcon {
+    width: 24px;
+    float: left;
+    margin-right: 10px;
+  }
+
+#headersectionmenu .callText {
+    color: #718096;
+  }
+
+  
+
+  /* Call Section */
+
+#headersectionmenu .name {
+    width: 16.65%;
+  }
+
+#headersectionmenu .man-image img {
+    margin-right: 10px;
+}
+#headersectionmenu .man-bio {
+    color: #313a49;
+}
+#headersectionmenu .man-bio .down{
+    font-weight: bold;
+}
+
+
+/* Name Section */
+
+  .shopping {
+    Width: 3%;
+    position: relative;
+  }
+
+  .shopping img {
+    width: 24px;
+    cursor: pointer;
+  }
+
+  .shopping .shopping5 {
+    position: absolute;
+    right: 7px;
+    top: -8px;
+    background: #fd6a6a;
+    text-align: center;
+    font-size: 12px;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    border-radius: 50%;
+    color: #fff;
+  }
+
+/* shopping Section */
+
+/* Header up Design End */
+
+/* Header Down Design Start */
+.headermenudown {}
+.headermenudown .headermenudownleft {
+    width: 56%;
+
+}
+.headermenudown .headermenudownleft ul {
+    padding: 8px 0 10px 24px;
+}
+.headermenudown .headermenudownleft ul li {
+    display: inline-block;
+
+}
+
+.headermenudown .headermenudownleft ul li:hover a {
+    background: #0bb783;
+    color: #fff;
+    transition: .5s;
+}
+
+.headermenudown .headermenudownleft ul li a {
+    display: block;
+    text-decoration: none;
+    color: #313a49;
+    padding: 10px 13px;
+    border-radius: 12px 12px 0 0;
+}
+.headermenudown .headermenudownleft ul li a img {
+    width: 15px;
+    margin-right: 5px;
+}
+
+/* ------------------ */
+
+.headermenudown .headermenudownright {
+    width: 44%;
+}
+.headermenudown .headermenudownright ul {
+    padding: 8px 0 10px 24px;
+}
+.headermenudown .headermenudownright ul li {
+    display: inline-block;
+
+}
+
+.headermenudown .headermenudownright ul li:hover a {
+    background: #0bb783;
+    color: #fff;
+    transition: .5s;
+}
+
+.headermenudown .headermenudownright ul li a {
+    display: block;
+    text-decoration: none;
+    color: #313a49;
+    padding: 10px 13px;
+    border-radius: 12px 12px 0 0;
+}
+.headermenudown .headermenudownright ul li a img {
+    width: 15px;
+    margin-right: 5px;
+}
+
+
+/* Header Down Design End */
+
+/* Banner Design Start */
+.banner {
+    background-color: #f5f5f5;
+    padding: 25px 0;
+}
+/* ======================== */
+.bannerdown {
+    padding-top: 25px;
+}
+.bannerdown .whatsapp {
+    width: 15%;
+    height: 100%;
+    background: rgb(252,253,246);
+    background: linear-gradient(120deg, rgba(252,253,246,1) 0%, rgba(96,210,102,1) 62%);
+    margin-right: 13px;
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: 10px 90px 10px 10px;
+    padding-top: 90px;
+    position: relative;
+}
+.bannerdown .whatsapp img {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.bannerdown h3 {
+    font-weight: 300;
+    margin-bottom: 10px;
+    
+}
+.bannerdown h2 {
+    margin-bottom: 10px;
+}
+
+.bannerdown .whatsapp .btn a{
+    color: #0bb783;
+} 
+
+.bannerdown .upload {
+    width: 15%;
+    height: 100%;
+    background: rgb(252,253,246);
+    background: linear-gradient(120deg, rgba(252,253,246,1) 0%, rgba(169,224,230,1) 62%);
+    margin-right: 13px;
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: 10px 90px 10px 10px;
+    padding-top: 90px;
+    position: relative;
+}
+.bannerdown .upload img {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.bannerdown .upload .btn a{
+    color: #10adbe;
+} 
+
+
+.bannerdown .resgister {
+    width: 15%;
+    height: 100%;
+    background: rgb(252,253,246);
+    background: linear-gradient(120deg, rgba(252,253,246,1) 0%, rgba(213,240,155,1) 62%);
+    margin-right: 13px;
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: 10px 90px 10px 10px;
+    padding-top: 90px;
+    position: relative;
+}
+.bannerdown .resgister img {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.bannerdown .resgister .btn a{
+    color: #7eb900;
+} 
+
+.bannerdown .healthcare {
+    width: 15%;
+    height: 100%;
+    background: rgb(252,253,246);
+    background: linear-gradient(120deg, rgba(252,253,246,1) 0%, rgba(176,148,255,1) 62%);
+    margin-right: 13px;
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: 10px 90px 10px 10px;
+    padding-top: 90px;
+    position: relative;
+}
+.bannerdown .healthcare img {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.bannerdown .healthcare .btn a{
+    color: #8c62ff;
+} 
+
+.bannerdown .order {
+    width: 15%;
+    height: 100%;
+    background: rgb(252,253,246);
+    background: linear-gradient(120deg, rgba(252,253,246,1) 0%, rgba(254,150,74,1) 62%);
+    margin-right: 13px;
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: 10px 90px 10px 10px;
+    padding-top: 90px;
+    position: relative;
+}
+.bannerdown .order img {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.bannerdown .order .btn a{
+    color: #fe964a;
+} 
+
+.bannerdown .labtest {
+    width: 15%;
+    height: 100%;
+    background: rgb(252,253,246);
+    background: linear-gradient(120deg, rgba(252,253,246,1) 0%, rgba(253,106,106,1) 62%);
+    margin-right: 13px;
+    box-sizing: border-box;
+    padding: 15px;
+    border-radius: 10px 90px 10px 10px;
+    padding-top: 90px;
+    position: relative;
+}
+.bannerdown .labtest img {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.bannerdown .labtest .btn a{
+    color: #fd6a6a;
+} 
+
+/* Banner Design End */
+
+/* Selling Section Start */
+.selling {
+    padding: 30px 0 ;
+}
+.selling .sellingUp {
+    margin-bottom: 20px;
+}
+.selling .sellingUp h1 {
+    width: 60%;
+}
+.selling .sellingUp button{
+    width: 40%;
+}
+
+.selling .sellingUp .btn a{
+    border: 1px solid #7eb900;
+    justify-content: right;
+    padding: 12px 28px;
+    border-radius: 10px;
+    color: #7eb900;
+}
+
+
+/* ====================== */
+
+.selling .sellingDown {
+    overflow: hidden;
+
+}
+.selling .sellingDown .sellOne {
+    Width: 15%;
+    height: 100%;
+    border: 1px solid #eeeff2;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+}
+.selling .sellingDown .sellOne img {
+    width: 100%;
+}
+.selling .sellingDown .sellOne p {
+    margin: 10px 0;
+    padding-left: 10px;
+}
+.selling .sellingDown .sellOne p span {
+    color: #a0aec0;
+}
+.selling .sellingDown .sellOne p .off {
+    color: #fd6a6a;
+    font-weight: bold;
+}
+.selling .sellingDown .sellOne h3 {
+    padding-left: 10px;
+}
+.selling .sellingDown .sellOne .btn {
+    margin: 15px 0;
+}
+.selling .sellingDown .sellOne .btn a {
+    background: #0bb783;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+
+.selling .sellingDown .sellTwo {
+    Width: 15%;
+    height: 100%;
+    border: 1px solid #eeeff2;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+}
+
+.selling .sellingDown .sellTwo img {
+    width: 100%;
+}
+.selling .sellingDown .sellTwo p {
+    margin: 10px 0;
+    padding-left: 10px;
+}
+.selling .sellingDown .sellTwo p span {
+    color: #a0aec0;
+}
+.selling .sellingDown .sellTwo p .off {
+    color: #fd6a6a;
+    font-weight: bold;
+}
+.selling .sellingDown .sellTwo h3 {
+    padding-left: 10px;
+}
+.selling .sellingDown .sellTwo .btn {
+    margin: 15px 0;
+}
+.selling .sellingDown .sellTwo .btn a {
+    background: #0bb783;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+/* =========== */
+.selling .sellingDown .sellThree {
+    Width: 15%;
+    height: 100%;
+    border: 1px solid #eeeff2;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+}
+
+.selling .sellingDown .sellThree img {
+    width: 100%;
+}
+.selling .sellingDown .sellThree p {
+    margin: 10px 0;
+    padding-left: 10px;
+}
+.selling .sellingDown .sellThree p span {
+    color: #a0aec0;
+}
+.selling .sellingDown .sellThree p .off {
+    color: #fd6a6a;
+    font-weight: bold;
+}
+.selling .sellingDown .sellThree h3 {
+    padding-left: 10px;
+}
+.selling .sellingDown .sellThree .btn {
+    margin: 15px 0;
+}
+.selling .sellingDown .sellThree .btn a {
+    background: #0bb783;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+/* ================ */
+
+.selling .sellingDown .sellFour {
+    Width: 15%;
+    height: 100%;
+    border: 1px solid #eeeff2;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+}
+
+.selling .sellingDown .sellFour img {
+    width: 100%;
+}
+.selling .sellingDown .sellFour p {
+    margin: 10px 0;
+    padding-left: 10px;
+}
+.selling .sellingDown .sellFour p span {
+    color: #a0aec0;
+}
+.selling .sellingDown .sellFour p .off {
+    color: #fd6a6a;
+    font-weight: bold;
+}
+.selling .sellingDown .sellFour h3 {
+    padding-left: 10px;
+}
+.selling .sellingDown .sellFour .btn {
+    margin: 15px 0;
+}
+.selling .sellingDown .sellFour .btn a {
+    background: #0bb783;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+/* =============== */
+.selling .sellingDown .sellFive {
+    Width: 15%;
+    height: 100%;
+    border: 1px solid #eeeff2;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+}
+
+.selling .sellingDown .sellFive img {
+    width: 100%;
+}
+.selling .sellingDown .sellFive p {
+    margin: 10px 0;
+    padding-left: 10px;
+}
+.selling .sellingDown .sellFive p span {
+    color: #a0aec0;
+}
+.selling .sellingDown .sellFive p .off {
+    color: #fd6a6a;
+    font-weight: bold;
+}
+.selling .sellingDown .sellFive h3 {
+    padding-left: 10px;
+}
+.selling .sellingDown .sellFive .btn {
+    margin: 15px 0;
+}
+.selling .sellingDown .sellFive .btn a {
+    border: 1px solid #fd6a6a;
+    color: #fd6a6a;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+/* =============== */
+.selling .sellingDown .sellSix {
+    Width: 15%;
+    height: 100%;
+    border: 1px solid #eeeff2;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.selling .sellingDown .sellSix img {
+    width: 100%;
+}
+.selling .sellingDown .sellSix p {
+    margin: 10px 0;
+    padding-left: 10px;
+}
+.selling .sellingDown .sellSix p span {
+    color: #a0aec0;
+}
+.selling .sellingDown .sellSix p .off {
+    color: #fd6a6a;
+    font-weight: bold;
+}
+.selling .sellingDown .sellSix h3 {
+    padding-left: 10px;
+}
+.selling .sellingDown .sellSix .btn {
+    margin: 15px 0;
+}
+.selling .sellingDown .sellSix .btn a {
+    background: #0bb783;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+/* Selling Section End */
+
+/* Shop Section Start */
+.shop {
+    background: #f5f5f5;
+    padding: 30px 0;
+    overflow: hidden;
+}
+.shop .shopUp {}
+.shop .shopUp h1 {
+    margin-bottom: 30px;
+}
+
+
+/* --------------------------- */
+
+.shop .shopDown {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+} 
+.shop .shopDown .personal1{
+    margin-right: 15px;
+    width: 15%;
+    height: 100%;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.shop .shopDown .personal1 .personalUp {
+    background: #ebe7f6;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+}
+.shop .shopDown .personal1 .personalUp img {
+    width: 80px;
+}
+
+
+.shop .shopDown .personal1 .personalDown {
+    padding: 15px 0;
+}
+
+.shop .shopDown .personal1 .personalDown h4 {
+    margin-bottom: 8px;
+}
+
+.shop .shopDown .personal1 .personalDown p {
+    color: #0bb783;
+}
+
+
+/* ------------------------------------------- */
+.shop .shopDown {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+} 
+.shop .shopDown .personal2{
+    margin-right: 15px;
+    width: 15%;
+    height: 100%;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.shop .shopDown .personal2 .personalUp {
+    background: #f6e6e8;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+}
+.shop .shopDown .personal2 .personalUp img {
+    width: 80px;
+}
+
+
+.shop .shopDown .personal2 .personalDown {
+    padding: 15px 0;
+}
+
+.shop .shopDown .personal2 .personalDown h4 {
+    margin-bottom: 8px;
+}
+
+.shop .shopDown .personal2 .personalDown p {
+    color: #0bb783;
+}
+
+/* ---------------------------------------- */
+.shop .shopDown {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+} 
+.shop .shopDown .personal3{
+    margin-right: 15px;
+    width: 15%;
+    height: 100%;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.shop .shopDown .personal3 .personalUp {
+    background: #deeaeb;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+}
+.shop .shopDown .personal3 .personalUp img {
+    width: 80px;
+}
+
+
+.shop .shopDown .personal3 .personalDown {
+    padding: 15px 0;
+}
+
+.shop .shopDown .personal3 .personalDown h4 {
+    margin-bottom: 8px;
+}
+
+.shop .shopDown .personal3 .personalDown p {
+    color: #0bb783;
+}
+
+/* -------------------------------- */
+.shop .shopDown {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+} 
+.shop .shopDown .personal4{
+    margin-right: 15px;
+    width: 15%;
+    height: 100%;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.shop .shopDown .personal4 .personalUp {
+    background: #dde5ef;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+}
+.shop .shopDown .personal4 .personalUp img {
+    width: 80px;
+}
+
+
+.shop .shopDown .personal4 .personalDown {
+    padding: 15px 0;
+}
+
+.shop .shopDown .personal4 .personalDown h4 {
+    margin-bottom: 8px;
+}
+
+.shop .shopDown .personal4 .personalDown p {
+    color: #0bb783;
+}
+
+/* --------------------------- */
+.shop .shopDown {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+} 
+.shop .shopDown .personal5{
+    margin-right: 15px;
+    width: 15%;
+    height: 100%;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.shop .shopDown .personal5 .personalUp {
+    background: #f5edf0;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+}
+.shop .shopDown .personal5 .personalUp img {
+    width: 80px;
+}
+
+
+.shop .shopDown .personal5 .personalDown {
+    padding: 15px 0;
+}
+
+.shop .shopDown .personal5 .personalDown h4 {
+    margin-bottom: 8px;
+}
+
+.shop .shopDown .personal5 .personalDown p {
+    color: #0bb783;
+}
+/* ---------------------------- */
+.shop .shopDown {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+} 
+.shop .shopDown .personal6{
+    margin-right: 15px;
+    width: 15%;
+    height: 100%;
+    background: #fff;
+    border-radius: 10px;
+}
+
+.shop .shopDown .personal6 .personalUp {
+    background: #ebe7f6;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 10px 0 0;
+}
+.shop .shopDown .personal6 .personalUp img {
+    width: 80px;
+}
+
+
+.shop .shopDown .personal6 .personalDown {
+    padding: 15px 0;
+}
+
+.shop .shopDown .personal6 .personalDown h4 {
+    margin-bottom: 8px;
+}
+
+.shop .shopDown .personal6 .personalDown p {
+    color: #0bb783;
+}
+
+/* Shop Section End */
+
+/* Earn Section Start */
+.earn{
+    background: #deefea;
+    position: relative;
+    overflow: hidden;
+}
+.earn .earn-up{
+    
+}
+
+.earn .earn-up .earn-left{
+    width: 50%;
+    height: 100%;
+    padding: 70px 0 70px 145px;
+}
+.earn .earn-up .earn-left h1 {
+    margin: 15px 0;
+    color: #111827;
+}
+.earn .earn-up .earn-left p{
+    width: 450px;
+    line-height: 1.5;
+    font-size: 17px;
+}
+.earn .earn-up .earn-left p span{
+    color: #fd6a6a;
+}
+
+.earn .earn-up .earn-left .btn {
+    margin-top: 50px;
+    width: 210px;
+    height: 100%;
+    display: block;
+    text-align: center;
+    margin-left: 0;
+    padding: 18px 0;
+    background: #3ed398;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 18px;;
+}
+
+
+.earn .earn-up .earn-right{
+    width: 50%;
+    height: 100%;
+    
+}
+.earn .earn-up .earn-right img {
+    width: 500px;
+}
+
+.earn .earn-down{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+/* Earn Section End */
+
+/* Features Section Start*/
+.features {}
+.features .featuresup {}
+.features .featuresup h1 {
+    color: #111827;
+    margin: 10px 0 40px 0;
+}
+
+
+.features .featuresdown {}
+.features .featuresdown .features1{
+    width: 18.5%;
+    height: 100%;
+    background: #fff;
+    box-shadow: -1px 1px 7px -2px rgba(0,0,0,0.66);
+    border-radius: 20px;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.features .featuresdown .features1 img {
+    width: 110px;
+}
+
+.features .featuresdown .features1:nth-child(2) img {
+    width: 80px;
+}
+
+.features .featuresdown .features1:nth-child(3) img {
+    width: 190px;
+}
+
+.features .featuresdown .features1:nth-child(4) {
+    padding: 52px 0;
+}
+.features .featuresdown .features1:nth-child(4) img {
+    width: 200px;
+}
+
+.features .featuresdown .features1:nth-child(5){
+    margin-right: 0;
+}
+.features .featuresdown .features1:nth-child(5) img{
+    width: 90px;
+}
+/* Features Section End*/
+/* Newly Item Section Start */
+
+.newly {
+    padding: 30px 0 ;
+    background: #deefea;
+}
+.newly .newlyUp {
+    margin-bottom: 20px;
+}
+.newly .newlyUp .newlytitle {
+    width: 60%;
+
+}
+
+.newly .newlyUp p {
+    margin-top: 10px;
+}
+
+.newly .newlyUp button{
+    width: 40%;
+}
+
+.newly .newlyUp .btn a{
+    border: 1px solid #7eb900;
+    justify-content: right;
+    padding: 12px 28px;
+    border-radius: 10px;
+    color: #7eb900;
+}
+
+.bt {
+    background-color: transparent;
+}
+
+/* ====================== */
+
+.newly .newlyDown {
+    overflow: hidden;
+    margin-top: 30px;
+
+}
+.newly .newlyDown .sellOne {
+    Width: 15%;
+    height: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    background: #fff;
+}
+.newly .newlyDown .sellOne img {
+    width: 100%;
+}
+.newly .newlyDown .sellOne p {
+    margin: 10px 0;
+    padding-left: 10px;
+}
+.newly .newlyDown .sellOne p span {
+    color: #a0aec0;
+}
+.newly .newlyDown .sellOne p .off {
+    color: #fd6a6a;
+    font-weight: bold;
+}
+.newly .newlyDown .sellOne h3 {
+    padding-left: 10px;
+}
+.newly .newlyDown .sellOne .btn {
+    margin: 15px 0;
+}
+.newly .newlyDown .sellOne .btn a {
+    background: #0bb783;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+
+.newly .newlyDown .sellTwo {
+    Width: 15%;
+    height: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    background: #fff;
+}
+
+.newly .newlyDown .sellTwo img {
+    width: 100%;
+}
+.newly .newlyDown .sellTwo p {
+    margin: 10px 0;
+    padding-left: 10px;
+}
+.newly .newlyDown .sellTwo p span {
+    color: #a0aec0;
+}
+.newly .newlyDown .sellTwo p .off {
+    color: #fd6a6a;
+    font-weight: bold;
+}
+.newly .newlyDown .sellTwo h3 {
+    padding-left: 10px;
+}
+.newly .newlyDown .sellTwo .btn {
+    margin: 15px 0;
+}
+.newly .newlyDown .sellTwo .btn a {
+    background: #0bb783;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+/* =========== */
+.newly .newlyDown .sellThree {
+    Width: 15%;
+    height: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    background: #fff;
+}
+
+.newly .newlyDown .sellThree img {
+    width: 100%;
+}
+.newly .newlyDown .sellThree p {
+    margin: 10px 0;
+    padding-left: 10px;
+}
+.newly .newlyDown .sellThree p span {
+    color: #a0aec0;
+}
+.newly .newlyDown .sellThree p .off {
+    color: #fd6a6a;
+    font-weight: bold;
+}
+.newly .newlyDown .sellThree h3 {
+    padding-left: 10px;
+}
+.newly .newlyDown .sellThree .btn {
+    margin: 15px 0;
+}
+.newly .newlyDown .sellThree .btn a {
+    background: #0bb783;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+/* ================ */
+
+.newly .newlyDown .sellFour {
+    Width: 15%;
+    height: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    background: #fff;
+}
+
+.newly .newlyDown .sellFour img {
+    width: 100%;
+}
+.newly .newlyDown .sellFour p {
+    margin: 10px 0;
+    padding-left: 10px;
+}
+.newly .newlyDown .sellFour p span {
+    color: #a0aec0;
+}
+.newly .newlyDown .sellFour p .off {
+    color: #fd6a6a;
+    font-weight: bold;
+}
+.newly .newlyDown .sellFour h3 {
+    padding-left: 10px;
+}
+.newly .newlyDown .sellFour .btn {
+    margin: 15px 0;
+}
+.newly .newlyDown .sellFour .btn a {
+    background: #0bb783;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+/* =============== */
+.newly .newlyDown .sellFive {
+    Width: 15%;
+    height: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    background: #fff;
+}
+
+.newly .newlyDown .sellFive img {
+    width: 100%;
+}
+.newly .newlyDown .sellFive p {
+    margin: 10px 0;
+    padding-left: 10px;
+}
+.newly .newlyDown .sellFive p span {
+    color: #a0aec0;
+}
+.newly .newlyDown .sellFive p .off {
+    color: #fd6a6a;
+    font-weight: bold;
+}
+.newly .newlyDown .sellFive h3 {
+    padding-left: 10px;
+}
+.newly .newlyDown .sellFive .btn {
+    margin: 15px 0;
+}
+.newly .newlyDown .sellFive .btn a {
+    border: 1px solid #fd6a6a;
+    color: #fd6a6a;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+/* =============== */
+.newly .newlyDown .sellSix {
+    Width: 15%;
+    height: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    background: #fff;
+}
+
+.newly .newlyDown .sellSix img {
+    width: 100%;
+}
+.newly .newlyDown .sellSix p {
+    margin: 10px 0;
+    padding-left: 10px;
+}
+.newly .newlyDown .sellSix p span {
+    color: #a0aec0;
+}
+.newly .newlyDown .sellSix p .off {
+    color: #fd6a6a;
+    font-weight: bold;
+}
+.newly .newlyDown .sellSix h3 {
+    padding-left: 10px;
+}
+.newly .newlyDown .sellSix .btn {
+    margin: 15px 0;
+}
+.newly .newlyDown .sellSix .btn a {
+    background: #0bb783;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+/* Newly Item Section End */
+
+/* Previously Item Section Start */
+.Previously {
+    padding: 30px 0 ;
+}
+.Previously .Previouslyup   {
+    margin-bottom: 20px;
+}
+.Previously .Previouslyup h1 {
+    width: 60%;
+}
+.Previously .Previouslyup button{
+    width: 40%;
+}
+
+.Previously .Previouslyup .btn a{
+    border: 1px solid #7eb900;
+    justify-content: right;
+    padding: 12px 28px;
+    border-radius: 10px;
+    color: #7eb900;
+}
+
+
+/* ====================== */
+
+.Previously .PreviouslyDown {
+    overflow: hidden;
+
+}
+.Previously .PreviouslyDown .sellOne {
+    Width: 15%;
+    height: 100%;
+    border: 1px solid #eeeff2;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    position: relative;
+}
+.Previously .PreviouslyDown .sellOne img {
+    width: 100%;
+}
+
+.Previously .PreviouslyDown .sellOne .tewel {
+    
+}
+.Previously .PreviouslyDown .sellOne .tewel p{
+    display: inline-block;
+    background: #fd6a6a;
+    padding-right: 10px;
+    font-size: 15px;
+    border-radius: 0 15px 15px 0;
+    position: absolute;
+    left: 0;
+    bottom: 190px;
+    color: #fff;
+}
+
+
+.Previously .PreviouslyDown .sellOne p {
+    margin: 10px 0;
+    padding-left: 10px;
+}
+.Previously .PreviouslyDown .sellOne p span {
+    color: #a0aec0;
+}
+.Previously .PreviouslyDown .sellOne p .off {
+    color: #fd6a6a;
+    font-weight: bold;
+}
+.Previously .PreviouslyDown .sellOne h3 {
+    padding-left: 10px;
+}
+.Previously .PreviouslyDown .sellOne .btn {
+    margin: 15px 0;
+}
+.Previously .PreviouslyDown .sellOne .btn a {
+    background: #0bb783;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+/* ======================== */
+
+.Previously .PreviouslyDown .sellTwo {
+    Width: 15%;
+    height: 100%;
+    border: 1px solid #eeeff2;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    position: relative;
+}
+
+.Previously .PreviouslyDown .sellTwo img {
+    width: 100%;
+}
+.Previously .PreviouslyDown .sellTwo .tewel p{
+    display: inline-block;
+    background: #fd6a6a;
+    padding-right: 10px;
+    font-size: 15px;
+    border-radius: 0 15px 15px 0;
+    position: absolute;
+    left: 0;
+    bottom: 190px;
+    color: #fff;
+}
+.Previously .PreviouslyDown .sellTwo p {
+    margin: 10px 0;
+    padding-left: 10px;
+}
+.Previously .PreviouslyDown .sellTwo p span {
+    color: #a0aec0;
+}
+.Previously .PreviouslyDown .sellTwo p .off {
+    color: #fd6a6a;
+    font-weight: bold;
+}
+.Previously .PreviouslyDown .sellTwo h3 {
+    padding-left: 10px;
+}
+.Previously .PreviouslyDown .sellTwo .btn {
+    margin: 15px 0;
+}
+.Previously .PreviouslyDown .sellTwo .btn a {
+    background: #0bb783;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+/* =========== */
+.Previously .PreviouslyDown .sellThree {
+    Width: 15%;
+    height: 100%;
+    border: 1px solid #eeeff2;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    position: relative;
+}
+
+.Previously .PreviouslyDown .sellThree img {
+    width: 100%;
+}
+
+.Previously .PreviouslyDown .sellThree .tewel p{
+    display: inline-block;
+    background: #fd6a6a;
+    padding-right: 10px;
+    font-size: 15px;
+    border-radius: 0 15px 15px 0;
+    position: absolute;
+    left: 0;
+    bottom: 190px;
+    color: #fff;
+}
+.Previously .PreviouslyDown .sellThree p {
+    margin: 10px 0;
+    padding-left: 10px;
+}
+.Previously .PreviouslyDown .sellThree p span {
+    color: #a0aec0;
+}
+.Previously .PreviouslyDown .sellThree p .off {
+    color: #fd6a6a;
+    font-weight: bold;
+}
+.Previously .PreviouslyDown .sellThree h3 {
+    padding-left: 10px;
+}
+.Previously .PreviouslyDown .sellThree .btn {
+    margin: 15px 0;
+}
+.Previously .PreviouslyDown .sellThree .btn a {
+    background: #0bb783;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+/* ================ */
+
+.Previously .PreviouslyDown .sellFour {
+    Width: 15%;
+    height: 100%;
+    border: 1px solid #eeeff2;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    position: relative;
+}
+
+.Previously .PreviouslyDown .sellFour img {
+    width: 100%;
+}
+
+.Previously .PreviouslyDown .sellFour .tewel p{
+    display: inline-block;
+    background: #fd6a6a;
+    padding-right: 10px;
+    font-size: 15px;
+    border-radius: 0 15px 15px 0;
+    position: absolute;
+    left: 0;
+    bottom: 190px;
+    color: #fff;
+}
+.Previously .PreviouslyDown .sellFour p {
+    margin: 10px 0;
+    padding-left: 10px;
+}
+.Previously .PreviouslyDown .sellFour p span {
+    color: #a0aec0;
+}
+.Previously .PreviouslyDown .sellFour p .off {
+    color: #fd6a6a;
+    font-weight: bold;
+}
+.Previously .PreviouslyDown .sellFour h3 {
+    padding-left: 10px;
+}
+.Previously .PreviouslyDown .sellFour .btn {
+    margin: 15px 0;
+}
+.Previously .PreviouslyDown .sellFour .btn a {
+    background: #0bb783;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+/* =============== */
+.Previously .PreviouslyDown .sellFive {
+    Width: 15%;
+    height: 100%;
+    border: 1px solid #eeeff2;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    position: relative;
+}
+
+.Previously .PreviouslyDown .sellFive img {
+    width: 100%;
+}
+
+.Previously .PreviouslyDown .sellFive .tewel p{
+    display: inline-block;
+    background: #fd6a6a;
+    padding-right: 10px;
+    font-size: 15px;
+    border-radius: 0 15px 15px 0;
+    position: absolute;
+    left: 0;
+    bottom: 190px;
+    color: #fff;
+}
+.Previously .PreviouslyDown .sellFive p {
+    margin: 10px 0;
+    padding-left: 10px;
+}
+.Previously .PreviouslyDown .sellFive p span {
+    color: #a0aec0;
+}
+.Previously .PreviouslyDown .sellFive p .off {
+    color: #fd6a6a;
+    font-weight: bold;
+}
+.Previously .PreviouslyDown .sellFive h3 {
+    padding-left: 10px;
+}
+.Previously .PreviouslyDown .sellFive .btn {
+    margin: 15px 0;
+}
+.Previously .PreviouslyDown .sellFive .btn a {
+    background: #0bb783;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+/* =============== */
+.Previously .PreviouslyDown .sellSix {
+    Width: 15%;
+    height: 100%;
+    border: 1px solid #eeeff2;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.Previously .PreviouslyDown .sellSix img {
+    width: 100%;
+}
+.Previously .PreviouslyDown .sellSix .tewel p{
+    display: inline-block;
+    background: #fd6a6a;
+    padding-right: 10px;
+    font-size: 15px;
+    border-radius: 0 15px 15px 0;
+    position: absolute;
+    left: 0;
+    bottom: 190px;
+    color: #fff;
+}
+.Previously .PreviouslyDown .sellSix p {
+    margin: 10px 0;
+    padding-left: 10px;
+}
+.Previously .PreviouslyDown .sellSix p span {
+    color: #a0aec0;
+}
+.Previously .PreviouslyDown .sellSix p .off {
+    color: #fd6a6a;
+    font-weight: bold;
+}
+.Previously .PreviouslyDown .sellSix h3 {
+    padding-left: 10px;
+}
+.Previously .PreviouslyDown .sellSix .btn {
+    margin: 15px 0;
+}
+.Previously .PreviouslyDown .sellSix .btn a {
+    background: #0bb783;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+/* Previously Item Section End */
+
+
+/* Summer Item Section Start */
+
+.Summer {
+    padding: 30px 0 ;
+    background: #f6e5e5;
+}
+.Summer .Summerup {
+    margin-bottom: 20px;
+}
+.Summer .Summerup .newlytitle {
+    width: 60%;
+
+}
+
+.Summer .Summerup p {
+    margin-top: 10px;
+    color: #fd6a6a;
+}
+
+.Summer .Summerup button{
+    width: 40%;
+}
+
+.Summer .Summerup .btn a{
+    border: 1px solid #7eb900;
+    justify-content: right;
+    padding: 12px 28px;
+    border-radius: 10px;
+    color: #7eb900;
+}
+
+.bt {
+    background-color: transparent;
+}
+
+/* ====================== */
+
+.Summer .Summerdown {
+    overflow: hidden;
+    margin-top: 30px;
+
+}
+.Summer .Summerdown .sellOne {
+    Width: 15%;
+    height: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    background: #fff;
+}
+.Summer .Summerdown .sellOne img {
+    width: 100%;
+}
+.Summer .Summerdown .sellOne p {
+    margin: 10px 0;
+    padding-left: 10px;
+}
+.Summer .Summerdown .sellOne p span {
+    color: #a0aec0;
+}
+.Summer .Summerdown .sellOne p .off {
+    color: #fd6a6a;
+    font-weight: bold;
+}
+.Summer .Summerdown .sellOne h3 {
+    padding-left: 10px;
+}
+.Summer .Summerdown .sellOne .btn {
+    margin: 15px 0;
+}
+.Summer .Summerdown .sellOne .btn a {
+    background: #0bb783;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+
+.Summer .Summerdown .sellTwo {
+    Width: 15%;
+    height: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    background: #fff;
+}
+
+.Summer .Summerdown .sellTwo img {
+    width: 100%;
+}
+.Summer .Summerdown .sellTwo p {
+    margin: 10px 0;
+    padding-left: 10px;
+}
+.Summer .Summerdown .sellTwo p span {
+    color: #a0aec0;
+}
+.Summer .Summerdown .sellTwo p .off {
+    color: #fd6a6a;
+    font-weight: bold;
+}
+.Summer .Summerdown .sellTwo h3 {
+    padding-left: 10px;
+}
+.Summer .Summerdown .sellTwo .btn {
+    margin: 15px 0;
+}
+.Summer .Summerdown .sellTwo .btn a {
+    background: #0bb783;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+/* =========== */
+.Summer .Summerdown .sellThree {
+    Width: 15%;
+    height: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    background: #fff;
+}
+
+.Summer .Summerdown .sellThree img {
+    width: 100%;
+}
+.Summer .Summerdown .sellThree p {
+    margin: 10px 0;
+    padding-left: 10px;
+}
+.Summer .Summerdown .sellThree p span {
+    color: #a0aec0;
+}
+.Summer .Summerdown .sellThree p .off {
+    color: #fd6a6a;
+    font-weight: bold;
+}
+.Summer .Summerdown .sellThree h3 {
+    padding-left: 10px;
+}
+.Summer .Summerdown .sellThree .btn {
+    margin: 15px 0;
+}
+.Summer .Summerdown .sellThree .btn a {
+    background: #0bb783;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+/* ================ */
+
+.Summer .Summerdown .sellFour {
+    Width: 15%;
+    height: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    background: #fff;
+}
+
+.Summer .Summerdown .sellFour img {
+    width: 100%;
+}
+.Summer .Summerdown .sellFour p {
+    margin: 10px 0;
+    padding-left: 10px;
+}
+.Summer .Summerdown .sellFour p span {
+    color: #a0aec0;
+}
+.Summer .Summerdown .sellFour p .off {
+    color: #fd6a6a;
+    font-weight: bold;
+}
+.Summer .Summerdown .sellFour h3 {
+    padding-left: 10px;
+}
+.Summer .Summerdown .sellFour .btn {
+    margin: 15px 0;
+}
+.Summer .Summerdown .sellFour .btn a {
+    background: #0bb783;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+/* =============== */
+.Summer .Summerdown .sellFive {
+    Width: 15%;
+    height: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    background: #fff;
+}
+
+.Summer .Summerdown .sellFive img {
+    width: 100%;
+}
+.Summer .Summerdown .sellFive p {
+    margin: 10px 0;
+    padding-left: 10px;
+}
+.Summer .Summerdown .sellFive p span {
+    color: #a0aec0;
+}
+.Summer .Summerdown .sellFive p .off {
+    color: #fd6a6a;
+    font-weight: bold;
+}
+.Summer .Summerdown .sellFive h3 {
+    padding-left: 10px;
+}
+.Summer .Summerdown .sellFive .btn {
+    margin: 15px 0;
+}
+.Summer .Summerdown .sellFive .btn a {
+    background: #0bb783;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+/* =============== */
+.Summer .Summerdown .sellSix {
+    Width: 15%;
+    height: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    background: #fff;
+}
+
+.Summer .Summerdown .sellSix img {
+    width: 100%;
+}
+.Summer .Summerdown .sellSix p {
+    margin: 10px 0;
+    padding-left: 10px;
+}
+.Summer .Summerdown .sellSix p span {
+    color: #a0aec0;
+}
+.Summer .Summerdown .sellSix p .off {
+    color: #fd6a6a;
+    font-weight: bold;
+}
+.Summer .Summerdown .sellSix h3 {
+    padding-left: 10px;
+}
+.Summer .Summerdown .sellSix .btn {
+    margin: 15px 0;
+}
+.Summer .Summerdown .sellSix .btn a {
+    background: #0bb783;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+/* Summer Item Section End */
+
+/* Essentials Item Section Start */
+
+.Essentials {
+    padding: 40px 0 ;
+    background: #fff;
+}
+.Essentials .Essentialsup {
+    margin-bottom: 20px;
+}
+.Essentials .Essentialsup .newlytitle {
+    width: 60%;
+
+}
+
+.Essentials .Essentialsup p {
+    margin-top: 10px;
+    color: #fd6a6a;
+}
+
+.Essentials .Essentialsup button{
+    width: 40%;
+}
+
+.Essentials .Essentialsup .btn a{
+    border: 1px solid #7eb900;
+    justify-content: right;
+    padding: 12px 28px;
+    border-radius: 10px;
+    color: #7eb900;
+}
+
+.Essentials .Essentialone{
+    background: #f1f2f4;
+    width: 32%; 
+    border: 1px solid #dde5ef;
+    border-radius: 10px;
+    margin-right: 15px;
+}
+
+.Essentials .Essentialone:nth-child(3){
+    margin-right: 0px;
+}
+
+.Essentials .Essentialone .Essentialleft{
+    padding: 1px solid #f1f2f4;
+    width: 40%;
+    height: 180px;
+    background: #fff;
+}
+.Essentials .Essentialone .Essentialleft img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: -3px;
+    border-radius: 10px 0 0 10px;
+}
+.Essentialright{
+    width: 60%;
+    padding: 0 0 10px 0;
+}
+
+.Essentialright p {
+    margin: 10px 0;
+    padding-left: 10px;
+    
+}
+.Essentialright p span {
+    color: #a0aec0;
+}
+.Essentialright p span.off {
+    color: #fd6a6a;
+    font-weight: bold;
+}
+.Essentialright h3 {
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.Essentialright .btn a {
+    background: #0bb783;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+/* Essentials Item Section End */
+
+/* upai Item Section Start */
+
+.upai {
+    background: url(./Images/Backgroun.png) no-repeat center center;
+    width: 100%;
+    height: 100%;
+    padding: 20px 0;
+}
+.upai .upaiup h2{
+    text-align: center;
+    color: #fff;
+    padding: 15px 0; 
+}
+
+/* -------------- */
+.upai .upaidown p {
+    line-height: 1.6 !important;
+}
+.upai .upaidown{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+.upai .bg{
+    background: #f9ecec !important;
+}
+
+.upai .bg1{
+    background: #e1f3ef !important;
+}
+.upai .upaileft{
+    width: 27%;
+    background: #eeebfb;
+    padding: 20px 0;
+    margin-left: 120px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.upai .upaileft img {
+    float: left;
+    margin-right: 10px;
+    width: 50px;
+    
+}
+
+.upai .upaileft p {
+    overflow: hidden;
+    line-height: 1.4;
+    font-size: 15px;
+    
+}
+
+.upai .upairight{
+    width: 27%;
+    background: #f9ecec;
+    padding: 20px 0;
+    border-radius: 10px;
+    padding: 20px 20px 20px 10px;
+    margin-left: -200px;
+}
+
+.upai .upairight img {
+    float: left;
+    margin-right: 10px;
+    width: 50px;
+}
+
+.upai .upairight p {
+    overflow: hidden;
+    line-height: 1.4;
+  font-size: 15px;
+
+}
+
+
+.upai .upaimleft{
+    width: 26%;
+    background: #e1f3ef;
+    padding: 20px 0;
+    border-radius: 10px;
+    padding: 20px 20px 20px 10px;
+    margin-left: 70px;
+}
+
+
+
+.upai .upaimleft img {
+    float: left;
+    margin-right: 10px;
+    width: 50px;
+}
+
+.upai .upaimleft p {
+    overflow: hidden;
+    line-height: 1.4;
+  font-size: 15px;
+
+}
+.upai .upaimright{
+    width: 26%;
+    background: #e0e9f4;
+    padding: 20px 0;
+    border-radius: 10px;
+    padding: 20px 20px 20px 10px;
+    margin-left: 260px;
+}
+
+.upai .upaimright img {
+    float: left;
+    margin-right: 10px;
+    width: 50px;
+}
+
+.upai .upaimright p {
+    overflow: hidden;
+    line-height: 1.4;
+  font-size: 15px;
+
+}
+
+
+
+
+/* upai Item Section End */
+
+
+/* Covid Item Section Start */
+.Covid {
+    padding: 30px 0 ;
+    background: #f5f5f5;
+}
+.Covid .Covidup   {
+    margin-bottom: 20px;
+}
+.Covid .Covidup h1 {
+    width: 60%;
+}
+.Covid .Covidup button{
+    width: 40%;
+}
+
+.Covid .Covidup .btn a{
+    border: 1px solid #7eb900;
+    justify-content: right;
+    padding: 12px 28px;
+    border-radius: 10px;
+    color: #7eb900;
+}
+
+
+/* ====================== */
+
+.Covid .CovidDown {
+    overflow: hidden;
+
+}
+.Covid .CovidDown .sellOne {
+    Width: 15%;
+    height: 100%;
+    background: #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    position: relative;
+}
+.Covid .CovidDown .sellOne img {
+    width: 100%;
+}
+
+.Covid .CovidDown .sellOne .tewel {
+    
+}
+.Covid .CovidDown .sellOne .tewel p{
+    display: inline-block;
+    background: #fd6a6a;
+    padding-right: 10px;
+    font-size: 15px;
+    border-radius: 0 15px 15px 0;
+    position: absolute;
+    left: 0;
+    bottom: 190px;
+    color: #fff;
+}
+
+
+.Covid .CovidDown .sellOne p {
+    margin: 10px 0;
+    padding-left: 10px;
+}
+.Covid .CovidDown .sellOne p span {
+    color: #a0aec0;
+}
+.Covid .CovidDown .sellOne p .off {
+    color: #fd6a6a;
+    font-weight: bold;
+}
+.Covid .CovidDown .sellOne h3 {
+    padding-left: 10px;
+}
+.Covid .CovidDown .sellOne .btn {
+    margin: 15px 0;
+}
+.Covid .CovidDown .sellOne .btn a {
+    background: #0bb783;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+/* ======================== */
+
+.Covid .CovidDown .sellTwo {
+    Width: 15%;
+    height: 100%;
+    background: #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    position: relative;
+}
+
+.Covid .CovidDown .sellTwo img {
+    width: 100%;
+}
+.Covid .CovidDown .sellTwo .tewel p{
+    display: inline-block;
+    background: #fd6a6a;
+    padding-right: 10px;
+    font-size: 15px;
+    border-radius: 0 15px 15px 0;
+    position: absolute;
+    left: 0;
+    bottom: 190px;
+    color: #fff;
+}
+.Covid .CovidDown .sellTwo p {
+    margin: 10px 0;
+    padding-left: 10px;
+}
+.Covid .CovidDown .sellTwo p span {
+    color: #a0aec0;
+}
+.Covid .CovidDown .sellTwo p .off {
+    color: #fd6a6a;
+    font-weight: bold;
+}
+.Covid .CovidDown .sellTwo h3 {
+    padding-left: 10px;
+}
+.Covid .CovidDown .sellTwo .btn {
+    margin: 15px 0;
+}
+.Covid .CovidDown .sellTwo .btn a {
+    background: #0bb783;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+/* =========== */
+.Covid .CovidDown .sellThree {
+    Width: 15%;
+    height: 100%;
+    background: #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    position: relative;
+}
+
+.Covid .CovidDown .sellThree img {
+    width: 100%;
+}
+
+.Covid .CovidDown .sellThree .tewel p{
+    display: inline-block;
+    background: #fd6a6a;
+    padding-right: 10px;
+    font-size: 15px;
+    border-radius: 0 15px 15px 0;
+    position: absolute;
+    left: 0;
+    bottom: 190px;
+    color: #fff;
+}
+.Covid .CovidDown .sellThree p {
+    margin: 10px 0;
+    padding-left: 10px;
+}
+.Covid .CovidDown .sellThree p span {
+    color: #a0aec0;
+}
+.Covid .CovidDown .sellThree p .off {
+    color: #fd6a6a;
+    font-weight: bold;
+}
+.Covid .CovidDown .sellThree h3 {
+    padding-left: 10px;
+}
+.Covid .CovidDown .sellThree .btn {
+    margin: 15px 0;
+}
+.Covid .CovidDown .sellThree .btn a {
+    background: #0bb783;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+/* ================ */
+
+.Covid .CovidDown .sellFour {
+    Width: 15%;
+    height: 100%;
+    background: #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    position: relative;
+}
+
+.Covid .CovidDown .sellFour img {
+    width: 100%;
+}
+
+.Covid .CovidDown .sellFour .tewel p{
+    display: inline-block;
+    background: #fd6a6a;
+    padding-right: 10px;
+    font-size: 15px;
+    border-radius: 0 15px 15px 0;
+    position: absolute;
+    left: 0;
+    bottom: 190px;
+    color: #fff;
+}
+.Covid .CovidDown .sellFour p {
+    margin: 10px 0;
+    padding-left: 10px;
+}
+.Covid .CovidDown .sellFour p span {
+    color: #a0aec0;
+}
+.Covid .CovidDown .sellFour p .off {
+    color: #fd6a6a;
+    font-weight: bold;
+}
+.Covid .CovidDown .sellFour h3 {
+    padding-left: 10px;
+}
+.Covid .CovidDown .sellFour .btn {
+    margin: 15px 0;
+}
+.Covid .CovidDown .sellFour .btn a {
+    background: #0bb783;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+/* =============== */
+.Covid .CovidDown .sellFive {
+    Width: 15%;
+    height: 100%;
+    background: #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    position: relative;
+}
+
+.Covid .CovidDown .sellFive img {
+    width: 100%;
+}
+
+.Covid .CovidDown .sellFive .tewel p{
+    display: inline-block;
+    background: #fd6a6a;
+    padding-right: 10px;
+    font-size: 15px;
+    border-radius: 0 15px 15px 0;
+    position: absolute;
+    left: 0;
+    bottom: 190px;
+    color: #fff;
+}
+.Covid .CovidDown .sellFive p {
+    margin: 10px 0;
+    padding-left: 10px;
+}
+.Covid .CovidDown .sellFive p span {
+    color: #a0aec0;
+}
+.Covid .CovidDown .sellFive p .off {
+    color: #fd6a6a;
+    font-weight: bold;
+}
+.Covid .CovidDown .sellFive h3 {
+    padding-left: 10px;
+}
+.Covid .CovidDown .sellFive .btn {
+    margin: 15px 0;
+}
+.Covid .CovidDown .sellFive .btn a {
+    background: #0bb783;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+/* =============== */
+.Covid .CovidDown .sellSix {
+    Width: 15%;
+    height: 100%;
+    background: #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.Covid .CovidDown .sellSix img {
+    width: 100%;
+}
+.Covid .CovidDown .sellSix .tewel p{
+    display: inline-block;
+    background: #fd6a6a;
+    padding-right: 10px;
+    font-size: 15px;
+    border-radius: 0 15px 15px 0;
+    position: absolute;
+    left: 0;
+    bottom: 190px;
+    color: #fff;
+}
+.Covid .CovidDown .sellSix p {
+    margin: 10px 0;
+    padding-left: 10px;
+}
+.Covid .CovidDown .sellSix p span {
+    color: #a0aec0;
+}
+.Covid .CovidDown .sellSix p .off {
+    color: #fd6a6a;
+    font-weight: bold;
+}
+.Covid .CovidDown .sellSix h3 {
+    padding-left: 10px;
+}
+.Covid .CovidDown .sellSix .btn {
+    margin: 15px 0;
+}
+.Covid .CovidDown .sellSix .btn a {
+    background: #0bb783;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+/* Covid Item Section End */
+/* Covid Item Section Start */
+.Care {
+    padding: 30px 0 ;
+    background: #ebe7f6;
+}
+.Care .Careup   {
+    margin-bottom: 20px;
+}
+.Care .Careup h1 {
+    width: 60%;
+}
+.Care .Careup button{
+    width: 40%;
+}
+
+.Care .Careup .btn a{
+    border: 1px solid #7eb900;
+    justify-content: right;
+    padding: 12px 28px;
+    border-radius: 10px;
+    color: #7eb900;
+}
+
+
+/* ====================== */
+
+.Care .CareDown {
+    overflow: hidden;
+
+}
+.Care .CareDown .sellOne {
+    Width: 15%;
+    height: 100%;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    position: relative;
+}
+.Care .CareDown .sellOne img {
+    width: 100%;
+}
+
+.Care .CareDown .sellOne .tewel {
+    
+}
+.Care .CareDown .sellOne .tewel p{
+    display: inline-block;
+    background: #fd6a6a;
+    padding-right: 10px;
+    font-size: 15px;
+    border-radius: 0 15px 15px 0;
+    position: absolute;
+    left: 0;
+    bottom: 190px;
+    color: #fff;
+}
+
+
+.Care .CareDown .sellOne p {
+    margin: 10px 0;
+    padding-left: 10px;
+}
+.Care .CareDown .sellOne p span {
+    color: #a0aec0;
+}
+.Care .CareDown .sellOne p .off {
+    color: #fd6a6a;
+    font-weight: bold;
+}
+.Care .CareDown .sellOne h3 {
+    padding-left: 10px;
+}
+.Care .CareDown .sellOne .btn {
+    margin: 15px 0;
+}
+.Care .CareDown .sellOne .btn a {
+    background: #0bb783;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+/* ======================== */
+
+.Care .CareDown .sellTwo {
+    Width: 15%;
+    height: 100%;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    position: relative;
+}
+
+.Care .CareDown .sellTwo img {
+    width: 100%;
+}
+.Care .CareDown .sellTwo .tewel p{
+    display: inline-block;
+    background: #fd6a6a;
+    padding-right: 10px;
+    font-size: 15px;
+    border-radius: 0 15px 15px 0;
+    position: absolute;
+    left: 0;
+    bottom: 190px;
+    color: #fff;
+}
+.Care .CareDown .sellTwo p {
+    margin: 10px 0;
+    padding-left: 10px;
+}
+.Care .CareDown .sellTwo p span {
+    color: #a0aec0;
+}
+.Care .CareDown .sellTwo p .off {
+    color: #fd6a6a;
+    font-weight: bold;
+}
+.Care .CareDown .sellTwo h3 {
+    padding-left: 10px;
+}
+.Care .CareDown .sellTwo .btn {
+    margin: 15px 0;
+}
+.Care .CareDown .sellTwo .btn a {
+    background: #0bb783;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+/* =========== */
+.Care .CareDown .sellThree {
+    Width: 15%;
+    height: 100%;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    position: relative;
+}
+
+.Care .CareDown .sellThree img {
+    width: 100%;
+}
+
+.Care .CareDown .sellThree .tewel p{
+    display: inline-block;
+    background: #fd6a6a;
+    padding-right: 10px;
+    font-size: 15px;
+    border-radius: 0 15px 15px 0;
+    position: absolute;
+    left: 0;
+    bottom: 190px;
+    color: #fff;
+}
+.Care .CareDown .sellThree p {
+    margin: 10px 0;
+    padding-left: 10px;
+}
+.Care .CareDown .sellThree p span {
+    color: #a0aec0;
+}
+.Care .CareDown .sellThree p .off {
+    color: #fd6a6a;
+    font-weight: bold;
+}
+.Care .CareDown .sellThree h3 {
+    padding-left: 10px;
+}
+.Care .CareDown .sellThree .btn {
+    margin: 15px 0;
+}
+.Care .CareDown .sellThree .btn a {
+    background: #0bb783;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+/* ================ */
+
+.Care .CareDown .sellFour {
+    Width: 15%;
+    height: 100%;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    position: relative;
+}
+
+.Care .CareDown .sellFour img {
+    width: 100%;
+}
+
+.Care .CareDown .sellFour .tewel p{
+    display: inline-block;
+    background: #fd6a6a;
+    padding-right: 10px;
+    font-size: 15px;
+    border-radius: 0 15px 15px 0;
+    position: absolute;
+    left: 0;
+    bottom: 190px;
+    color: #fff;
+}
+.Care .CareDown .sellFour p {
+    margin: 10px 0;
+    padding-left: 10px;
+}
+.Care .CareDown .sellFour p span {
+    color: #a0aec0;
+}
+.Care .CareDown .sellFour p .off {
+    color: #fd6a6a;
+    font-weight: bold;
+}
+.Care .CareDown .sellFour h3 {
+    padding-left: 10px;
+}
+.Care .CareDown .sellFour .btn {
+    margin: 15px 0;
+}
+.Care .CareDown .sellFour .btn a {
+    background: #0bb783;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+/* =============== */
+.Care .CareDown .sellFive {
+    Width: 15%;
+    height: 100%;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    position: relative;
+}
+
+.Care .CareDown .sellFive img {
+    width: 100%;
+}
+
+.Care .CareDown .sellFive .tewel p{
+    display: inline-block;
+    background: #fd6a6a;
+    padding-right: 10px;
+    font-size: 15px;
+    border-radius: 0 15px 15px 0;
+    position: absolute;
+    left: 0;
+    bottom: 190px;
+    color: #fff;
+}
+.Care .CareDown .sellFive p {
+    margin: 10px 0;
+    padding-left: 10px;
+}
+.Care .CareDown .sellFive p span {
+    color: #a0aec0;
+}
+.Care .CareDown .sellFive p .off {
+    color: #fd6a6a;
+    font-weight: bold;
+}
+.Care .CareDown .sellFive h3 {
+    padding-left: 10px;
+}
+.Care .CareDown .sellFive .btn {
+    margin: 15px 0;
+}
+.Care .CareDown .sellFive .btn a {
+    background: #0bb783;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+/* =============== */
+.Care .CareDown .sellSix {
+    Width: 15%;
+    height: 100%;
+    background: #ffffff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.Care .CareDown .sellSix img {
+    width: 100%;
+}
+.Care .CareDown .sellSix .tewel p{
+    display: inline-block;
+    background: #fd6a6a;
+    padding-right: 10px;
+    font-size: 15px;
+    border-radius: 0 15px 15px 0;
+    position: absolute;
+    left: 0;
+    bottom: 190px;
+    color: #fff;
+}
+.Care .CareDown .sellSix p {
+    margin: 10px 0;
+    padding-left: 10px;
+}
+.Care .CareDown .sellSix p span {
+    color: #a0aec0;
+}
+.Care .CareDown .sellSix p .off {
+    color: #fd6a6a;
+    font-weight: bold;
+}
+.Care .CareDown .sellSix h3 {
+    padding-left: 10px;
+}
+.Care .CareDown .sellSix .btn {
+    margin: 15px 0;
+}
+.Care .CareDown .sellSix .btn a {
+    background: #0bb783;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+/* Care Item Section End */
+/* Devices Item Section Start */
+.Devices {
+    padding: 30px 0 ;
+}
+.Devices .Deviceup   {
+    margin-bottom: 20px;
+}
+.Devices .Deviceup h1 {
+    width: 60%;
+}
+.Devices .Deviceup button{
+    width: 40%;
+}
+
+.Devices .Deviceup .btn a{
+    border: 1px solid #7eb900;
+    justify-content: right;
+    padding: 12px 28px;
+    border-radius: 10px;
+    color: #7eb900;
+}
+
+
+/* ====================== */
+
+.Devices .DeviceDown {
+    overflow: hidden;
+
+}
+.Devices .DeviceDown .sellOne {
+    Width: 15%;
+    height: 100%;
+    background: #ffffff;
+    border: 1px solid #dde5ef;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    position: relative;
+}
+.Devices .DeviceDown .sellOne img {
+    width: 100%;
+}
+
+.Devices .DeviceDown .sellOne .tewel {
+    
+}
+.Devices .DeviceDown .sellOne .tewel p{
+    display: inline-block;
+    background: #fd6a6a;
+    padding-right: 10px;
+    font-size: 15px;
+    border-radius: 0 15px 15px 0;
+    position: absolute;
+    left: 0;
+    bottom: 190px;
+    color: #fff;
+}
+
+
+.Devices .DeviceDown .sellOne p {
+    margin: 10px 0;
+    padding-left: 10px;
+}
+.Devices .DeviceDown .sellOne p span {
+    color: #a0aec0;
+}
+.Devices .DeviceDown .sellOne p .off {
+    color: #fd6a6a;
+    font-weight: bold;
+}
+.Devices .DeviceDown .sellOne h3 {
+    padding-left: 10px;
+}
+.Devices .DeviceDown .sellOne .btn {
+    margin: 15px 0;
+}
+.Devices .DeviceDown .sellOne .btn a {
+    background: #0bb783;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+/* ======================== */
+
+.Devices .DeviceDown .sellTwo {
+    Width: 15%;
+    height: 100%;
+    background: #ffffff;
+    border: 1px solid #dde5ef;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    position: relative;
+}
+
+.Devices .DeviceDown .sellTwo img {
+    width: 100%;
+}
+.Devices .DeviceDown .sellTwo .tewel p{
+    display: inline-block;
+    background: #fd6a6a;
+    padding-right: 10px;
+    font-size: 15px;
+    border-radius: 0 15px 15px 0;
+    position: absolute;
+    left: 0;
+    bottom: 190px;
+    color: #fff;
+}
+.Devices .DeviceDown .sellTwo p {
+    margin: 10px 0;
+    padding-left: 10px;
+}
+.Devices .DeviceDown .sellTwo p span {
+    color: #a0aec0;
+}
+.Devices .DeviceDown .sellTwo p .off {
+    color: #fd6a6a;
+    font-weight: bold;
+}
+.Devices .DeviceDown .sellTwo h3 {
+    padding-left: 10px;
+}
+.Devices .DeviceDown .sellTwo .btn {
+    margin: 15px 0;
+}
+.Devices .DeviceDown .sellTwo .btn a {
+    background: #0bb783;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+/* =========== */
+.Devices .DeviceDown .sellThree {
+    Width: 15%;
+    height: 100%;
+    background: #ffffff;
+    border: 1px solid #dde5ef;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    position: relative;
+}
+
+.Devices .DeviceDown .sellThree img {
+    width: 100%;
+}
+
+.Devices .DeviceDown .sellThree .tewel p{
+    display: inline-block;
+    background: #fd6a6a;
+    padding-right: 10px;
+    font-size: 15px;
+    border-radius: 0 15px 15px 0;
+    position: absolute;
+    left: 0;
+    bottom: 190px;
+    color: #fff;
+}
+.Devices .DeviceDown .sellThree p {
+    margin: 10px 0;
+    padding-left: 10px;
+}
+.Devices .DeviceDown .sellThree p span {
+    color: #a0aec0;
+}
+.Devices .DeviceDown .sellThree p .off {
+    color: #fd6a6a;
+    font-weight: bold;
+}
+.Devices .DeviceDown .sellThree h3 {
+    padding-left: 10px;
+}
+.Devices .DeviceDown .sellThree .btn {
+    margin: 15px 0;
+}
+.Devices .DeviceDown .sellThree .btn a {
+    background: #0bb783;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+/* ================ */
+
+.Devices .DeviceDown .sellFour {
+    Width: 15%;
+    height: 100%;
+    background: #ffffff;
+    border: 1px solid #dde5ef;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    position: relative;
+}
+
+.Devices .DeviceDown .sellFour img {
+    width: 100%;
+}
+
+.Devices .DeviceDown .sellFour .tewel p{
+    display: inline-block;
+    background: #fd6a6a;
+    padding-right: 10px;
+    font-size: 15px;
+    border-radius: 0 15px 15px 0;
+    position: absolute;
+    left: 0;
+    bottom: 190px;
+    color: #fff;
+}
+.Devices .DeviceDown .sellFour p {
+    margin: 10px 0;
+    padding-left: 10px;
+}
+.Devices .DeviceDown .sellFour p span {
+    color: #a0aec0;
+}
+.Devices .DeviceDown .sellFour p .off {
+    color: #fd6a6a;
+    font-weight: bold;
+}
+.Devices .DeviceDown .sellFour h3 {
+    padding-left: 10px;
+}
+.Devices .DeviceDown .sellFour .btn {
+    margin: 15px 0;
+}
+.Devices .DeviceDown .sellFour .btn a {
+    background: #0bb783;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+/* =============== */
+.Devices .DeviceDown .sellFive {
+    Width: 15%;
+    height: 100%;
+    background: #ffffff;
+    border: 1px solid #dde5ef;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    position: relative;
+}
+
+.Devices .DeviceDown .sellFive img {
+    width: 100%;
+}
+
+.Devices .DeviceDown .sellFive .tewel p{
+    display: inline-block;
+    background: #fd6a6a;
+    padding-right: 10px;
+    font-size: 15px;
+    border-radius: 0 15px 15px 0;
+    position: absolute;
+    left: 0;
+    bottom: 190px;
+    color: #fff;
+}
+.Devices .DeviceDown .sellFive p {
+    margin: 10px 0;
+    padding-left: 10px;
+}
+.Devices .DeviceDown .sellFive p span {
+    color: #a0aec0;
+}
+.Devices .DeviceDown .sellFive p .off {
+    color: #fd6a6a;
+    font-weight: bold;
+}
+.Devices .DeviceDown .sellFive h3 {
+    padding-left: 10px;
+}
+.Devices .DeviceDown .sellFive .btn {
+    margin: 15px 0;
+}
+.Devices .DeviceDown .sellFive .btn a {
+    border: 1px solid #fd6a6a;
+    color: #fd6a6a;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+/* =============== */
+.Devices .DeviceDown .sellSix {
+    Width: 15%;
+    height: 100%;
+    background: #ffffff;
+    border: 1px solid #dde5ef;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.Devices .DeviceDown .sellSix img {
+    width: 100%;
+}
+.Devices .DeviceDown .sellSix .tewel p{
+    display: inline-block;
+    background: #fd6a6a;
+    padding-right: 10px;
+    font-size: 15px;
+    border-radius: 0 15px 15px 0;
+    position: absolute;
+    left: 0;
+    bottom: 190px;
+    color: #fff;
+}
+.Devices .DeviceDown .sellSix p {
+    margin: 10px 0;
+    padding-left: 10px;
+}
+.Devices .DeviceDown .sellSix p span {
+    color: #a0aec0;
+}
+.Devices .DeviceDown .sellSix p .off {
+    color: #fd6a6a;
+    font-weight: bold;
+}
+.Devices .DeviceDown .sellSix h3 {
+    padding-left: 10px;
+}
+.Devices .DeviceDown .sellSix .btn {
+    margin: 15px 0;
+}
+.Devices .DeviceDown .sellSix .btn a {
+    background: #0bb783;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+/* Devices Item Section End */
+/* Sexual Item Section Start */
+.Sexual {
+    padding: 30px 0 ;
+    background-color: #f6e0eb;
+}
+.Sexual .Deviceup   {
+    margin-bottom: 20px;
+}
+.Sexual .Sexualup h1 {
+    width: 60%;
+    margin-bottom: 25px;;
+}
+.DSexualevices .Sexualup button{
+    width: 40%;
+}
+
+.Sexual .Sexualup .btn a{
+    border: 1px solid #7eb900;
+    justify-content: right;
+    padding: 12px 28px;
+    border-radius: 10px;
+    color: #7eb900;
+}
+
+
+/* ====================== */
+
+.Sexual .SexualDown {
+    overflow: hidden;
+
+}
+.Sexual .SexualDown .sellOne {
+    Width: 15%;
+    height: 100%;
+    background: #ffffff;
+    border: 1px solid #dde5ef;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    position: relative;
+}
+.Sexual .SexualDown .sellOne img {
+    width: 100%;
+}
+
+.Sexual .SexualDown .sellOne .tewel {
+    
+}
+.Sexual .SexualDown .sellOne .tewel p{
+    display: inline-block;
+    background: #fd6a6a;
+    padding-right: 10px;
+    font-size: 15px;
+    border-radius: 0 15px 15px 0;
+    position: absolute;
+    left: 0;
+    bottom: 190px;
+    color: #fff;
+}
+
+
+.Sexual .SexualDown .sellOne p {
+    margin: 10px 0;
+    padding-left: 10px;
+}
+.Sexual .SexualDown .sellOne p span {
+    color: #a0aec0;
+}
+.Sexual .SexualDown .sellOne p .off {
+    color: #fd6a6a;
+    font-weight: bold;
+}
+.Sexual .SexualDown .sellOne h3 {
+    padding-left: 10px;
+}
+.Sexual .SexualDown .sellOne .btn {
+    margin: 15px 0;
+}
+.Sexual .SexualDown .sellOne .btn a {
+    background: #0bb783;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+/* ======================== */
+
+.Sexual .SexualDown .sellTwo {
+    Width: 15%;
+    height: 100%;
+    background: #ffffff;
+    border: 1px solid #dde5ef;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    position: relative;
+}
+
+.Sexual .SexualDown .sellTwo img {
+    width: 100%;
+}
+.Sexual .SexualDown .sellTwo .tewel p{
+    display: inline-block;
+    background: #fd6a6a;
+    padding-right: 10px;
+    font-size: 15px;
+    border-radius: 0 15px 15px 0;
+    position: absolute;
+    left: 0;
+    bottom: 190px;
+    color: #fff;
+}
+.Sexual .SexualDown .sellTwo p {
+    margin: 10px 0;
+    padding-left: 10px;
+}
+.Sexual .SexualDown .sellTwo p span {
+    color: #a0aec0;
+}
+.Sexual .SexualDown .sellTwo p .off {
+    color: #fd6a6a;
+    font-weight: bold;
+}
+.Sexual .SexualDown .sellTwo h3 {
+    padding-left: 10px;
+}
+.Sexual .SexualDown .sellTwo .btn {
+    margin: 15px 0;
+}
+.Sexual .SexualDown .sellTwo .btn a {
+    background: #0bb783;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+/* =========== */
+.Sexual .SexualDown .sellThree {
+    Width: 15%;
+    height: 100%;
+    background: #ffffff;
+    border: 1px solid #dde5ef;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    position: relative;
+}
+
+.Sexual .SexualDown .sellThree img {
+    width: 100%;
+}
+
+.Sexual .SexualDown .sellThree .tewel p{
+    display: inline-block;
+    background: #fd6a6a;
+    padding-right: 10px;
+    font-size: 15px;
+    border-radius: 0 15px 15px 0;
+    position: absolute;
+    left: 0;
+    bottom: 190px;
+    color: #fff;
+}
+.Sexual .SexualDown .sellThree p {
+    margin: 10px 0;
+    padding-left: 10px;
+}
+.Sexual .SexualDown .sellThree p span {
+    color: #a0aec0;
+}
+.Sexual .SexualDown .sellThree p .off {
+    color: #fd6a6a;
+    font-weight: bold;
+}
+.Sexual .SexualDown .sellThree h3 {
+    padding-left: 10px;
+}
+.Sexual .SexualDown .sellThree .btn {
+    margin: 15px 0;
+}
+.Sexual .SexualDown .sellThree .btn a {
+    background: #0bb783;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+/* ================ */
+
+.Sexual .SexualDown .sellFour {
+    Width: 15%;
+    height: 100%;
+    background: #ffffff;
+    border: 1px solid #dde5ef;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    position: relative;
+}
+
+.Sexual .SexualDown .sellFour img {
+    width: 100%;
+}
+
+.Sexual .SexualDown .sellFour .tewel p{
+    display: inline-block;
+    background: #fd6a6a;
+    padding-right: 10px;
+    font-size: 15px;
+    border-radius: 0 15px 15px 0;
+    position: absolute;
+    left: 0;
+    bottom: 190px;
+    color: #fff;
+}
+.Sexual .SexualDown .sellFour p {
+    margin: 10px 0;
+    padding-left: 10px;
+}
+.Sexual .SexualDown .sellFour p span {
+    color: #a0aec0;
+}
+.Sexual .SexualDown .sellFour p .off {
+    color: #fd6a6a;
+    font-weight: bold;
+}
+.Sexual .SexualDown .sellFour h3 {
+    padding-left: 10px;
+}
+.Sexual .SexualDown .sellFour .btn {
+    margin: 15px 0;
+}
+.Sexual .SexualDown .sellFour .btn a {
+    background: #0bb783;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+/* =============== */
+.Sexual .SexualDown .sellFive {
+    Width: 15%;
+    height: 100%;
+    background: #ffffff;
+    border: 1px solid #dde5ef;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+    position: relative;
+}
+
+.Sexual .SexualDown .sellFive img {
+    width: 100%;
+}
+
+.Sexual .SexualDown .sellFive .tewel p{
+    display: inline-block;
+    background: #fd6a6a;
+    padding-right: 10px;
+    font-size: 15px;
+    border-radius: 0 15px 15px 0;
+    position: absolute;
+    left: 0;
+    bottom: 190px;
+    color: #fff;
+}
+.Sexual .SexualDown .sellFive p {
+    margin: 10px 0;
+    padding-left: 10px;
+}
+.Sexual .SexualDown .sellFive p span {
+    color: #a0aec0;
+}
+.Sexual .SexualDown .sellFive p .off {
+    color: #fd6a6a;
+    font-weight: bold;
+}
+.Sexual .SexualDown .sellFive h3 {
+    padding-left: 10px;
+}
+.Sexual .SexualDown .sellFive .btn {
+    margin: 15px 0;
+}
+.Sexual .SexualDown .sellFive .btn a {
+    border: 1px solid #fd6a6a;
+    color: #fd6a6a;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+
+
+/* =============== */
+.Sexual .SexualDown .sellSix {
+    Width: 15%;
+    height: 100%;
+    background: #ffffff;
+    border: 1px solid #dde5ef;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.Sexual .SexualDown .sellSix img {
+    width: 100%;
+}
+.Sexual .SexualDown .sellSix .tewel p{
+    display: inline-block;
+    background: #fd6a6a;
+    padding-right: 10px;
+    font-size: 15px;
+    border-radius: 0 15px 15px 0;
+    position: absolute;
+    left: 0;
+    bottom: 190px;
+    color: #fff;
+}
+.Sexual .SexualDown .sellSix p {
+    margin: 10px 0;
+    padding-left: 10px;
+}
+.Sexual .SexualDown .sellSix p span {
+    color: #a0aec0;
+}
+.Sexual .SexualDown .sellSix p .off {
+    color: #fd6a6a;
+    font-weight: bold;
+}
+.Sexual .SexualDown .sellSix h3 {
+    padding-left: 10px;
+}
+.Sexual .SexualDown .sellSix .btn {
+    margin: 15px 0;
+}
+.Sexual .SexualDown .sellSix .btn a {
+    background: #0bb783;
+    color: #fff;
+    width: 80%;
+    margin: auto;
+    border-radius: 10px;
+}
+/* Sexual Item Section End */
+
+/* review Item Section Start */
+.review {
+    background: #f5f5f5;
+    padding: 60px 0; 
+}
+.review .reviewup{}
+.review .reviewup p{
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+
+/* ============================== */
+.review .reviewdown .reviewone {
+    width: 32%;
+    height: 100%;
+    background: #ffff;
+    padding: 20px;
+    margin-right: 15px;
+    border-radius: 20px;
+}
+
+.review .reviewdown .reviewone:nth-child(3){
+    margin-right: 0;
+}
+
+.review .reviewdown .reviewone .reviewoneup {}
+.review .reviewdown .reviewone .reviewoneup .man {}
+.review .reviewdown .reviewone .reviewoneup .man img {
+    border-radius: 50%;
+    width: 45px;
+    float: left;
+    margin-right: 15px;
+}
+.review .reviewdown .reviewone .reviewoneup .man h3 {}
+.review .reviewdown .reviewone .reviewoneup .man p {}
+
+.review .reviewdown .reviewone .reviewonemiddile p {
+    margin: 15px 0;
+    line-height: 1.5;
+    color: #606163;
+}
+
+.review .reviewdown .reviewone .reviewonedown i {
+    color: #e6bb20;
+}
+
+
+
+/* review Item Section End */
+
+/* Footer Item Section Start*/
+.footer {
+    background: #1f2937;
+    color: #fff;
+    font-size: 15px;
+    padding: 80px 0 0 0;
+    overflow: hidden;
+}
+.footer .footerup {}
+.footer .footerup .footerone {
+    width: 25%;
+}
+.footer .footerup .footerone img {
+    margin-bottom: 30px;
+}
+.footer .footerup .footerone p {
+    width: 200px;
+}
+
+.footer .footerup .footertwo {
+    width: 25%;
+} 
+.footer .footerup .footertwo p {
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 18px;
+} 
+.footer .footerup .footertwo ul {
+
+} 
+.footer .footerup .footertwo ul li {
+    display: block;
+    margin-bottom: 8px;
+    
+} 
+.footer .footerup .footertwo ul li a {
+    color: #fff;
+    text-decoration: none;
+} 
+
+.footer .footerup .footerthree p {
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 18px;
+} 
+
+.footer .footerup .footerthree {
+    width: 25%;
+}
+.footer .footerup .footerthree ul li {
+    display: block;
+    margin-bottom: 8px;
+    
+} 
+.footer .footerup .footerthree ul li a {
+    color: #fff;
+    text-decoration: none;
+} 
+
+.footer .footerup .footerfour {
+    width: 25%;
+}
+
+.footer .footerup .footerfour p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+} 
+.footer .footerup .footerfour p.address {
+    line-height: 1.5;
+    font-weight: 500;
+    width: 250px;
+    font-size: 16px;
+} 
+
+.footer .footerup .footerfour p.number {
+    font-weight: 500;
+    font-size: 16px;
+} 
+
+.footer .footerup .footerfour .socialmedia {
+
+} 
+
+.footer .footerup .footerfour .socialmedia i {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 100%;
+    background: #313a49;
+    text-align: center;
+    margin-right: 10px;
+    cursor: pointer;
+} 
+
+.footerdown {
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #313a49;
+    margin-top: 60px;
+}
+
+/* Footer Item Section End */
